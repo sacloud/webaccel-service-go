@@ -17,12 +17,18 @@ package service
 import (
 	"github.com/sacloud/services"
 	"github.com/sacloud/webaccel-api-go"
+	"github.com/sacloud/webaccel-service-go/cache"
 	"github.com/sacloud/webaccel-service-go/site"
+	"github.com/sacloud/webaccel-service-go/site/certificate"
+	"github.com/sacloud/webaccel-service-go/usage"
 )
 
 // Services サービス一覧を返す
 func Services(client *webaccel.Client) []services.Service {
 	return []services.Service{
+		cache.New(client),
 		site.New(client),
+		certificate.New(client),
+		usage.New(client),
 	}
 }
