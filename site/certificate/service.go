@@ -33,7 +33,8 @@ func New(client *webaccel.Client) *Service {
 
 func (s *Service) Info() *services.Info {
 	return &services.Info{
-		Name: "certificate",
+		Name:           "certificate",
+		ParentServices: []string{"site"},
 	}
 }
 
