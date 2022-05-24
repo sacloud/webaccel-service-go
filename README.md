@@ -12,18 +12,31 @@
 
 :warning: webaccel-service-goは現在開発中です。
 
-関連プロジェクト: [sacloud/webaccel-api-go](https://github.com/sacloud/webaccel-api-go)
-
+関連プロジェクト: 
+- [sacloud/webaccel-api-go](https://github.com/sacloud/webaccel-api-go)
+- [sacloud/services](https://github.com/sacloud/services)
 
 インターフェースの例:
 ```go
-// TODO 後で書く
+// サイト操作の例
+func (s *Service) Find(req *FindRequest) ([]*webaccel.Site, error)
+func (s *Service) FindWithContext(ctx context.Context, req *FindRequest) ([]*webaccel.Site, error)
+
+func (s *Service) Read(req *ReadRequest) (*webaccel.Site, error)
+func (s *Service) ReadWithContext(ctx context.Context, req *ReadRequest) (*webaccel.Site, error)
+
+func (s *Service) Update(req *UpdateRequest) (*webaccel.Site, error)
+func (s *Service) UpdateWithContext(ctx context.Context, req *UpdateRequest) (*webaccel.Site, error)
 ```
 
 以下のリソースに対応しています。
 
 ```console
-// TODO 後で書く
+.
+├── cache
+├── site
+│   └── certificate
+└── usage
 ```
 
 ## Installation
