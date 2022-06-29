@@ -7,7 +7,7 @@ require (
 	github.com/sacloud/packages-go v0.0.3
 	github.com/sacloud/services v0.0.2-0.20220422071454-6b9a0bc8caf8
 	github.com/sacloud/webaccel-api-go v1.1.3-0.20220523074054-dbb0dea80b17
-	github.com/stretchr/testify v1.7.1
+	github.com/stretchr/testify v1.7.5
 )
 
 require (
@@ -28,5 +28,5 @@ require (
 	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3 // indirect
 	golang.org/x/sys v0.0.0-20210806184541-e5e7981a1069 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
