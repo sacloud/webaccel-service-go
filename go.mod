@@ -3,7 +3,7 @@ module github.com/sacloud/webaccel-service-go
 go 1.19
 
 require (
-	github.com/sacloud/api-client-go v0.2.4
+	github.com/sacloud/api-client-go v0.2.6
 	github.com/sacloud/packages-go v0.0.7
 	github.com/sacloud/services v0.0.2-0.20220422071454-6b9a0bc8caf8
 	github.com/sacloud/webaccel-api-go v1.1.4
@@ -19,11 +19,11 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.1 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.2 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/sacloud/go-http v0.1.3 // indirect
+	github.com/sacloud/go-http v0.1.4 // indirect
 	go.uber.org/ratelimit v0.2.0 // indirect
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
 	golang.org/x/sys v0.0.0-20220808155132-1c4a2a72c664 // indirect
