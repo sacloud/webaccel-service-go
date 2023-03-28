@@ -31,9 +31,5 @@ func (s *Service) FindWithContext(ctx context.Context, _ *FindRequest) ([]*webac
 		return nil, err
 	}
 
-	var results []*webaccel.Site
-	for i := range found.Sites {
-		results = append(results, found.Sites[i])
-	}
-	return results, nil
+	return found.Sites, nil
 }
