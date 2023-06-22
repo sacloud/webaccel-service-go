@@ -7,7 +7,7 @@ require (
 	github.com/sacloud/packages-go v0.0.9
 	github.com/sacloud/services v0.0.2-0.20220422071454-6b9a0bc8caf8
 	github.com/sacloud/webaccel-api-go v1.1.5
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 )
 
 require (
