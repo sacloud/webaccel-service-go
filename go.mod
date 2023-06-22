@@ -3,11 +3,11 @@ module github.com/sacloud/webaccel-service-go
 go 1.20
 
 require (
-	github.com/sacloud/api-client-go v0.2.7
+	github.com/sacloud/api-client-go v0.2.8
 	github.com/sacloud/packages-go v0.0.8
 	github.com/sacloud/services v0.0.2-0.20220422071454-6b9a0bc8caf8
 	github.com/sacloud/webaccel-api-go v1.1.5
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.3
 )
 
 require (
@@ -24,7 +24,7 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/leodido/go-urn v1.2.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/sacloud/go-http v0.1.5 // indirect
+	github.com/sacloud/go-http v0.1.6 // indirect
 	go.uber.org/ratelimit v0.2.0 // indirect
 	golang.org/x/crypto v0.7.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
