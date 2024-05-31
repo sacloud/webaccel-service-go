@@ -45,8 +45,8 @@ github.com/sacloud/packages-go v0.0.10 h1:UiQGjy8LretewkRhsuna1TBM9Vz/l9FoYpQx+D
 github.com/sacloud/packages-go v0.0.10/go.mod h1:f8QITBh9z4IZc4yE9j21Q8b0sXEMwRlRmhhjWeDVTYs=
 github.com/sacloud/services v0.0.2-0.20220422071454-6b9a0bc8caf8 h1:xlAcHj6ebeOUu5pigHvM9H1tArroiSMEj7BUnuGKOP0=
 github.com/sacloud/services v0.0.2-0.20220422071454-6b9a0bc8caf8/go.mod h1:iKmGnTl+oBZzOz44nz5HGsa+xmY1YnIblwijAih6KmQ=
-github.com/sacloud/webaccel-api-go v1.1.6 h1:OjAORCUzk3kYCXSPsHj7D0+wk9/ILzZsbqPTtk24j4A=
-github.com/sacloud/webaccel-api-go v1.1.6/go.mod h1:xzeJjXIBtkjWc75u5gihiScjBlEBhxfLL60bhsHJSB4=
+github.com/sacloud/webaccel-api-go v1.2.0 h1:eoiMNmz9bbeL3Ht1WPLKe2DbG7vH7Lb3a/jCmSjcKPs=
+github.com/sacloud/webaccel-api-go v1.2.0/go.mod h1:ZgTg5TldLf90RU9y3TnI0/luxERkJofk9+iLaupKB2E=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=
