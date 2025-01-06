@@ -51,7 +51,7 @@ Then import the `webaccel` package into your own code.
 
 ## License
 
-`webaccel-service-go` Copyright 2022-2023 The sacloud/webaccel-service-go authors.
+`webaccel-service-go` Copyright 2022-2025 The sacloud/webaccel-service-go authors.
 
 This project is published under [Apache 2.0 License](LICENSE).
 
