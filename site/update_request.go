@@ -23,7 +23,7 @@ type UpdateRequest struct {
 
 	// Note: 本来serviceのUpdateパラメータはポインタ型で各値を受け取り、Readで取得した現在の値とマージして更新用パラメータを作成する。
 	// しかしWebAccelのSiteについてはAPI側がPATCH動作(指定された値だけ更新する)なため、マージせずそのままパラメータ指定するだけで良い。
-	webaccel.UpdateSiteRequest `validate:"dive"`
+	webaccel.UpdateSiteRequest
 }
 
 func (req *UpdateRequest) ToRequestParameter() *webaccel.UpdateSiteRequest {
