@@ -6,7 +6,7 @@ require (
 	github.com/sacloud/api-client-go v0.3.4
 	github.com/sacloud/packages-go v0.0.12
 	github.com/sacloud/services v0.1.0
-	github.com/sacloud/webaccel-api-go v1.4.0
+	github.com/sacloud/webaccel-api-go v1.4.1
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -27,7 +27,7 @@ require (
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/sacloud/go-http v0.1.9 // indirect
-	github.com/sacloud/saclient-go v0.2.4 // indirect
+	github.com/sacloud/saclient-go v0.2.6 // indirect
 	go.uber.org/ratelimit v0.3.1 // indirect
 	golang.org/x/crypto v0.46.0 // indirect
 	golang.org/x/sys v0.39.0 // indirect
