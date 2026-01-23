@@ -3,7 +3,7 @@ module github.com/sacloud/webaccel-service-go
 go 1.25.5
 
 require (
-	github.com/sacloud/api-client-go v0.3.4
+	github.com/sacloud/api-client-go v0.3.5
 	github.com/sacloud/packages-go v0.0.12
 	github.com/sacloud/services v0.1.0
 	github.com/sacloud/webaccel-api-go v1.4.0
