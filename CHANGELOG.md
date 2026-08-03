@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.2.1](https://github.com/sacloud/webaccel-service-go/compare/v0.2.0...v0.2.1) - 2026-08-03
+
+- update README for repository transition by @shyouhei in https://github.com/sacloud/webaccel-service-go/pull/57
+
 ## [v0.2.0](https://github.com/sacloud/webaccel-service-go/compare/v0.1.0...v0.2.0) - 2025-12-23
 - Copyright 2025 by @yamamoto-febc in https://github.com/sacloud/webaccel-service-go/pull/50
 - update dev env by @yamamoto-febc in https://github.com/sacloud/webaccel-service-go/pull/51
