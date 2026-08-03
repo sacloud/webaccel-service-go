@@ -1,3 +1,19 @@
+> [!WARNING]
+>
+> このレポジトリの内容は下記に集約・移転しました。
+> github.com/sacloud/sacloud-sdk-go
+>
+> 今後は上記のレポジトリで開発を行います。
+> このライブラリを使用している方は、importを変更していただきますようお願いいたします。
+>
+> ```go
+> // 変更前
+> import "github.com/sacloud/webaccel-service-go"
+>
+> // 変更後
+> import "github.com/sacloud/sacloud-sdk-go/service/webaccel"
+> ```
+
 # webaccel-service-go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/sacloud/webaccel-service-go.svg)](https://pkg.go.dev/github.com/sacloud/webaccel-service-go)
